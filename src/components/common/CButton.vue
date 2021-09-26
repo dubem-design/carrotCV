@@ -1,20 +1,30 @@
 <template lang="pug">
-button.rounded.px-6.py-3.text-white.mr-3(:class="computeVariants") 
+button.rounded.px-6.py-3.mr-3(:class="computeVariants") 
   slot
 </template>
 
 <script>
+import { inject } from 'vue'
 export default {
+    setup(props) {
+        const layoutSettings = inject('layoutSettings')
+        return { layoutSettings }
+    },
     props: {
-        variant: {
+        colorType: {
             type: String,
-            default: 'indigo',
+            default: 'primary',
         },
     },
     computed: {
         computeVariants() {
-            const v = this.variant
-            return `bg-${v}-500 hover:bg-${v}-700`
+            const v = this.layoutSettings[this.colorType]
+            const btnTheme =
+                this.colorType === 'primary'
+                    ? { normal: 500, hover: 600, text: 'white' }
+                    : { normal: 100, hover: 200, text: 'black' }
+
+            return `bg-${v}-${btnTheme.normal} hover:bg-${v}-${btnTheme.hover} text-${btnTheme.text}`
         },
     },
 }

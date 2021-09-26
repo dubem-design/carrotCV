@@ -12,7 +12,7 @@ div#projects.pt-12.section
     div(class="w-9/12")
       h3.text-2xl {{item.projectRole}}
       p.text-lg.mb-4 {{item.about}}
-      a.text-gray-600.text-indigo-500(:href="item.website" target="_blank" class="hover:text-indigo-700")
+      a.text-gray-600(:href="item.website" target="_blank" :class="`text-${layoutSettings.primary}-500 hover:text-${layoutSettings.primary}-700`")
         PhGlobe.inline.mr-2(:size="16")
         span {{item.website}}
       span.border-l.pl-6.ml-6 {{item.industry}}
@@ -23,4 +23,5 @@ import { inject } from 'vue'
 const {
     projects: { menu, content, setup },
 } = inject('sections')
+const layoutSettings = inject('layoutSettings')
 </script>

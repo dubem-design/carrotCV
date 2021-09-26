@@ -1,11 +1,11 @@
 <template lang="pug">
-h3.section-title(:class="{'text-indigo-600':routeHash === hash}")
+h3.section-title(:class="routeHash === hash ? `text-${layoutSettings.primary}-600` : ''")
   component.inline.mr-2(:is="icon" weight="duotone" :size="24") 
   span.capitalize {{title}}
 </template>
 
 <script setup>
-import { computed } from 'vue'
+import { computed, inject } from 'vue'
 import { useRoute } from 'vue-router'
 
 defineProps({
@@ -29,4 +29,6 @@ defineProps({
 const routeHash = computed(() => {
     return useRoute().hash
 })
+
+const layoutSettings = inject('layoutSettings')
 </script>

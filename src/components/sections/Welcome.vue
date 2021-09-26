@@ -8,8 +8,8 @@
       h3.font-semibold.text-gray-500.text-lg(style="letter-spacing: .4em;") {{content.greeting}}
       h1.text-6xl.font-bold.break-words {{content.whatYouDo}}
       .cta-buttons.pt-6
-        CButton(variant="indigo") Send DM
-        button.bg-gray-100.rounded.px-6.py-3.text-gray-800(class="hover:bg-gray-300") Learn on youtube
+        CButton() Send DM
+        CButton(colorType="accent") Learn on youtube
       //- pre {{$content}}
   div.story.border-t.pt-12
     h3.section-title {{content.title}}

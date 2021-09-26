@@ -1,7 +1,7 @@
 // Layout settings
 export default {
-    primary: 'indigo',
-    secondary: 'gray',
+    primary: 'red',
+    accent: 'yellow',
     bordered: true,
     scrollFaders: false,
     useLogo: false,
