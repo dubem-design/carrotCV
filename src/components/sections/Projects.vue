@@ -7,15 +7,15 @@ div#projects.pt-12.section
       div
         div.mt-1.bg-gray-200.rounded-xl.mr-4.bg-cover(style="width:50px;height:50px" )
       div
-        h3.text-2xl {{item.name}}
+        h3.text-2xl.text-gray-900 {{item.name}}
         small.text-gray-400.text-md {{item.fromAndTo}}
     div(class="w-9/12")
-      h3.text-2xl {{item.projectRole}}
-      p.text-lg.mb-4 {{item.about}}
+      h3.text-2xl.text-gray-900 {{item.projectRole}}
+      p.text-lg.mb-4.text-gray-700 {{item.about}}
       a.text-gray-600(:href="item.website" target="_blank" :class="`text-${layoutSettings.primary}-500 hover:text-${layoutSettings.primary}-700`")
         PhGlobe.inline.mr-2(:size="16")
         span {{item.website}}
-      span.border-l.pl-6.ml-6 {{item.industry}}
+      span.border-l.pl-6.ml-6.text-gray-500 {{item.industry}}
 </template>
 
 <script setup>

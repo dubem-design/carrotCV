@@ -1,7 +1,7 @@
 <template lang="pug">
 .container
   .flex.flex-row
-    div.pt-12.sticky.top-0.h-screen(class="w-2/12" :class="{'border-r' : layoutSettings.bordered}")
+    div.pt-12.sticky.top-0.h-screen(class="w-2/12" :class="{'border-r border-gray-200' : layoutSettings.bordered}")
       LeftNavBar(:navs="navs")
       Notfiy
     div.px-12(class="w-8/12")

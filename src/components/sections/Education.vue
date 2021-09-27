@@ -6,11 +6,11 @@ div#education.pt-12.section
       div
         div.mt-1.bg-gray-200.rounded-xl.mr-4.bg-cover(style="width:50px;height:50px" :style="{ backgroundImage: `url(${item.companyLogo})` }")
       div
-        h3.text-2xl {{item.school}}
+        h3.text-2xl.text-gray-900 {{item.school}}
         small.text-gray-400.text-md {{item.fromAndTo}}
     div(class="w-9/12")
-      h3.text-2xl {{item.certificationName}}
-      p.text-lg.mb-4 {{item.snippet}}
+      h3.text-2xl.text-gray-900 {{item.certificationName}}
+      p.text-lg.mb-4.text-gray-700 {{item.snippet}}
   //- pre {{content}}
 </template>
 

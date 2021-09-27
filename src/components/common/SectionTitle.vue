@@ -1,5 +1,5 @@
 <template lang="pug">
-h3.section-title(:class="routeHash === hash ? `text-${layoutSettings.primary}-600` : ''")
+h3.section-title.text-gray-900(:class="routeHash === hash ? `text-${layoutSettings.primary}-600` : ''")
   component.inline.mr-2(:is="icon" weight="duotone" :size="24") 
   span.capitalize {{title}}
 </template>

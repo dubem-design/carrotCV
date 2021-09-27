@@ -22,3 +22,18 @@ h6 {
 html {
     scroll-behavior: smooth;
 }
+
+.dark-mode-on {
+    display: block;
+}
+
+.dark-mode-off {
+    display: none;
+}
+
+.dark .dark-mode-on {
+    display: none;
+}
+.dark .dark-mode-off {
+    display: block;
+}

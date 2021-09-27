@@ -1,4 +1,5 @@
 module.exports = {
+    darkMode: 'class',
     purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
     theme: {
         container: {
@@ -10,9 +11,18 @@ module.exports = {
                 margin: 'margin',
             },
         },
+        nightwind: {
+            colorClasses: [
+                'gradient',
+                'ring',
+                'ring-offset',
+                'divide',
+                'placeholder',
+            ],
+        },
     },
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [require('nightwind')],
 }

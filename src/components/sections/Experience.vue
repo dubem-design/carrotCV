@@ -1,20 +1,20 @@
 <template lang="pug">
-div#experience.pt-12.section.relative
+div#experience.pt-12.section
   SectionTitle(:title="setup.name" :hash="menu.hash" :icon="menu.icon")
   .bg-gray-100.rounded-xl.mb-8(style="height:300px")
   div.flex.mb-12(v-for="(item, index) in content" :key="index" @mouseenter="(e) => addPreview(index)" @mouseleave="(e, index) => removePreview(e, index)")
     div.flex(class="w-3/12")
       div.mt-1.bg-gray-200.rounded-xl.mr-4.bg-cover(style="width:50px;height:50px" :style="{ backgroundImage: `url(${item.companyLogo})` }")
       div
-        h3.text-2xl {{item.company}}
+        h3.text-2xl.text-gray-900 {{item.company}}
         small.text-gray-400.text-md {{item.fromAndTo}}
     div(class="w-9/12")
-      h3.text-2xl {{item.jobTitle}}
-      p.text-lg.mb-4 {{item.yourWorkThere}}
+      h3.text-2xl.text-gray-900 {{item.jobTitle}}
+      p.text-lg.mb-4.text-gray-700 {{item.yourWorkThere}}
       a(:href="item.website" target="_blank" :class="`text-${layoutSettings.primary}-500 hover:text-${layoutSettings.primary}-700`")
         PhGlobe.inline.mr-2(:size="16")
         span {{item.website}}
-      span.border-l.pl-6.ml-6 {{item.companySector}}
+      span.border-l.pl-6.ml-6.text-gray-500 {{item.companySector}}
     .bg-gray-100.rounded.fixed.z-10.border.overflow-hidden.shadow-2xl(:id="`expp-${index}`" :ref="`expp${index}`" style="height:250px;width:400px;display:none")
       img.object-contain(src="https://source.boringavatars.com/pixel/120/Maria%20Mitchell?colors=264653,2a9d8f,e9c46a,f4a261,e76f51")
 </template>
