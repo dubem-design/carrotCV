@@ -1,10 +1,7 @@
 <template lang="pug">
 .pr-8()
   .mb-8
-    h1.text-4xl.font-bold.text-gray-800 {{bio.firstname}} 
-    h1.text-4xl.font-bold.text-gray-800 {{bio.middlename}}
-    h1.text-4xl.font-bold.text-gray-800 {{bio.lastname}}
-    p.Building.text-gray-600.mt-4 {{bio.tagline}}
+    Bio
   ul.relative
     li.cursor.absolute.w-full.transition-top.duration-300.overflow-hidden(style="height:56px" :style="{top: `${navs.findIndex(x=>x.hash === hash) * 56}px`, opacity: mounted ? 1 : 0 }")
       .rounded-2xl.w-full.h-full.transition-margin.duration-700(:class="`bg-${layoutSettings.accent}-100`" :style="{ marginTop: mounted ? '0px' : '56px', transitionDelay: `${navs.findIndex(x=>x.hash === hash) * 100 + 50}ms` }" )
@@ -17,6 +14,7 @@
 <script>
 import { computed, watchEffect, ref, inject } from 'vue'
 import { useRoute } from 'vue-router'
+import Bio from './Bio.vue'
 
 export default {
     props: {
@@ -24,6 +22,9 @@ export default {
             type: Array,
             default: () => [],
         },
+    },
+    components: {
+        Bio,
     },
     setup(props) {
         const layoutSettings = inject('layoutSettings')

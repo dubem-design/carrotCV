@@ -8,6 +8,7 @@ module.exports = {
         extend: {
             transitionProperty: {
                 top: 'top',
+                left: 'left',
                 margin: 'margin',
             },
         },
