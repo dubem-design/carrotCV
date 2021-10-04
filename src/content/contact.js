@@ -10,12 +10,12 @@ const content = [
     {
         icon: 'PhEnvelope',
         info: 'I offer business advice on design, user-experience and product strategies. Book your session via email',
-        link: '',
+        link: 'mailto:youremailhere@example.com',
     },
     {
         icon: 'PhYoutubeLogo',
         info: 'For junior designs & devs looking to level up, checkout my youtube channel.',
-        link: '',
+        link: 'https://youtube.com',
     },
 ]
 

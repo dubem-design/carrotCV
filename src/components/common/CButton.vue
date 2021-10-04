@@ -1,5 +1,5 @@
 <template lang="pug">
-button.rounded.px-6.py-3.mr-3(:class="computeVariants") 
+a.rounded(:class="computeVariants" :href="href" target="_blank" class="px-3 py-2 lg:px-6 lg:py-3") 
   slot
 </template>
 
@@ -11,6 +11,10 @@ export default {
         return { layoutSettings }
     },
     props: {
+        href: {
+            type: String,
+            default: '#',
+        },
         colorType: {
             type: String,
             default: 'primary',

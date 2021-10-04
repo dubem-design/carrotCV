@@ -6,10 +6,10 @@
       LeftNavBar(:navs="navs")
       Notify
     div.px-6(class="lg:px-12 w-full lg:w-9/12 xl:w-8/12")
-      .sticky.top-0.pt-12.bg-gradient-to-b.from-white.to-transparent
+      .sticky.top-0.pt-12.bg-gradient-to-b.from-white.to-transparent(v-if="layoutSettings.scrollFaders")
       //- pre {{content}}
       slot
-      .sticky.bottom-0.p-10.bg-gradient-to-b.from-transparent.to-white
+      .sticky.bottom-0.p-10.bg-gradient-to-b.from-transparent.to-white(v-if="layoutSettings.scrollFaders")
       CFooter
     div.pt-12.sticky.top-0.h-screen(class="hidden xl:block lg:w-1/12 xl:w-2/12")
       SocialBar

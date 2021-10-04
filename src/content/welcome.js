@@ -11,8 +11,8 @@ const content = {
     greeting: 'Hello there',
     whatYouDo:
         'I help startups build great product experiences & junior creatives level up',
-    ctaButtonLink: '',
-    auxButtonLink: '',
+    ctaButtonLink: 'https://google.com',
+    auxButtonLink: 'https://youtube.com',
     title: 'Once upon a time...',
     bodyHTML: `I started my creative journey doodling all over the wall in my house, then I moved next to dismantling our electronics just to see how they work. I decided I would study comupter science in school so I would know how to command machines. 
 

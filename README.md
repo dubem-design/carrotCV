@@ -1,7 +1,43 @@
-# Vue 3 + Vite
+# CarrotCV - Simple personal resume, CV & portfolio
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+CarrotCV was designed for designers, developers, programmers, coders, freelancers and other technical professionals. Built with lighten fast Vuejs 3.0, CarrotCV loads fast with animations put in place to impress. More features include Dark & light modes, mobile responsive design, easily configurable and light weight in size. CarrotCV is your best option to impressing your next client, employer or prospect.
 
-## Recommended IDE Setup
+### Template versions 
+- Vuejs [Current]
+- HTML only [coming soon]
+- React [coming soon]
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+### Built with
+- Vuejs 3
+- TailwindCSS
+## Features
+- Minimalist design
+- Dark & light modes
+- Fancy navigation cusor
+- Floating project preview
+- Easily customizable via config files
+- Fast hosting setup on Vercel or other hosting platforms
+- Mobile responsive
+
+## How to use
+### 1. Setting up and editing content
+- Download project into desired folder
+- Download and install [nodejs](https://nodejs.org/en/download/)
+- Open terminal or command line in the project folder and run "npm install" command
+- Upnext run "npm run dev" & open "http://localhost:3000/" in your browser
+- Head over to file named "STARTHERE.js" and follow the instructions there
+- Watch your the template preview update as you change the content of the config files.
+### 2. Hosting website to Vercel or other hosting services
+- [Hosting on Vercel for free](https://vercel.com/guides/deploying-vuejs-to-vercel)
+- Guide for more coming soon
+
+## Resource attribution
+1. Fonts used: Belleza for headings and system fonts (Avenir, Helvetica, Arial, sans-serif) for body text
+2. Logos used from: [https://clearbit.com/logo](https://clearbit.com/logo) 
+3. Icon library used: [https://phosphoricons.com/](https://phosphoricons.com/)
+
+## Changelog
+**v1.0** - Oct 4 2021
+```
+CarrotCV was launched
+```
