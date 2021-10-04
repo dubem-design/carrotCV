@@ -1,6 +1,9 @@
 module.exports = {
     darkMode: 'class',
-    purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+    // purge: {
+    //     content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+    //     safelist: ['bg'],
+    // },
     theme: {
         container: {
             center: true,
@@ -12,18 +15,18 @@ module.exports = {
                 margin: 'margin',
             },
         },
-        nightwind: {
-            colorClasses: [
-                'gradient',
-                'ring',
-                'ring-offset',
-                'divide',
-                'placeholder',
-            ],
-        },
+        // nightwind: {
+        //     colorClasses: [
+        //         'gradient',
+        //         'ring',
+        //         'ring-offset',
+        //         'divide',
+        //         'placeholder',
+        //     ],
+        // },
     },
     variants: {
         extend: {},
     },
-    plugins: [require('nightwind')],
+    // plugins: [require('nightwind')],
 }

@@ -4,7 +4,7 @@
     Bio
   ul.relative
     li.cursor.absolute.w-full.transition-top.duration-300.overflow-hidden(style="height:56px" :style="{top: `${navs.findIndex(x=>x.hash === hash) * 56}px`, opacity: mounted ? 1 : 0 }")
-      .rounded-2xl.w-full.h-full.transition-margin.duration-700(:class="`bg-${layoutSettings.accent}-100`" :style="{ marginTop: mounted ? '0px' : '56px', transitionDelay: `${navs.findIndex(x=>x.hash === hash) * 100 + 50}ms` }" )
+      .rounded-2xl.w-full.h-full.transition-margin.duration-700(:class="cursorBg" :style="{ marginTop: mounted ? '0px' : '56px', transitionDelay: `${navs.findIndex(x=>x.hash === hash) * 100 + 50}ms` }" )
     li.relative.transform.transition-transform.ease-out(v-for="(nav,index) in navs" :key="nav.title" :class="mounted ? 'translate-x-0' : '-translate-x-96'" :style="{ transitionDuration: `${index * 150}ms` }")
       router-link.text-gray-800.py-4.px-6.rounded-2xl.block(:to="nav.hash" style="height:56px" :class="variant(nav)")
         component.inline.mr-3(:is="nav.icon" :size="24" weight="duotone") 
@@ -48,7 +48,9 @@ export default {
 
         const bio = inject('bio')
 
-        return { hash, navs, mounted, bio, variant, layoutSettings }
+        const cursorBg = `bg-${layoutSettings.accent}-100`
+
+        return { hash, navs, mounted, bio, variant, layoutSettings, cursorBg }
     },
 }
 </script>

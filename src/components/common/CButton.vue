@@ -27,8 +27,8 @@ export default {
                 this.colorType === 'primary'
                     ? { normal: 500, hover: 600, text: 'white' }
                     : { normal: 100, hover: 200, text: 'black' }
-
-            return `bg-${v}-${btnTheme.normal} hover:bg-${v}-${btnTheme.hover} text-${btnTheme.text}`
+            const scheme = `bg-${v}-${btnTheme.normal} hover:bg-${v}-${btnTheme.hover} text-${btnTheme.text}`
+            return scheme
         },
     },
 }

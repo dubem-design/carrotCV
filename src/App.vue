@@ -2,7 +2,7 @@
 div.bg-white
   component(:is="layout" )
     router-view
-  button.fixed.text-gray-900(style="bottom:50px;right:50px" @click="nightwind.toggle()") 
+  //- button.fixed.text-gray-900(style="bottom:50px;right:50px" @click="nightwind.toggle()") 
     span.dark-mode-on  Dark
     span.dark-mode-off  Light
 </template>
@@ -10,7 +10,7 @@ div.bg-white
 <script>
 import { computed, onMounted, ref } from 'vue'
 import { useRoute } from 'vue-router'
-import nightwind from 'nightwind/helper'
+// import nightwind from 'nightwind/helper'
 
 export default {
     setup() {
@@ -25,13 +25,13 @@ export default {
         // })
 
         return {
-            nightwind,
+            // nightwind,
             sectionObserver,
             layout,
         }
     },
     mounted() {
-        nightwind.init()
+        // nightwind.init()
         // nightwind.toggle()
         // setTimeout(() => {
         //     this.observeSections()
