@@ -35,6 +35,7 @@ CarrotCV was designed for designers, developers, programmers, coders, freelancer
 1. Fonts used: Belleza for headings and system fonts (Avenir, Helvetica, Arial, sans-serif) for body text
 2. Logos used from: [https://clearbit.com/logo](https://clearbit.com/logo) 
 3. Icon library used: [https://phosphoricons.com/](https://phosphoricons.com/)
+4. Preview images used from pexels.com - [Profile Pic](https://www.pexels.com/photo/light-sky-fashion-man-7907687/), [Laptop with Facebook](https://www.pexels.com/photo/person-using-a-laptop-6162932/), [Tablet with google](https://www.pexels.com/photo/black-samsung-tablet-display-google-browser-on-screen-218717/)
 
 ## Changelog
 **v1.0** - Oct 4 2021
