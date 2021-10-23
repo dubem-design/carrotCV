@@ -2,31 +2,26 @@ const setup = {
     name: 'contact',
 }
 const menu = {
-    title: 'Let`s talk',
+    title: 'Let`s gist!',
     hash: '#contact',
     icon: 'PhChatsTeardrop',
 }
 const content = [
     {
-        icon: 'PhEnvelope',
-        info: 'I offer business advice on design, user-experience and product strategies. Book your session via email',
-        link: 'mailto:youremailhere@example.com',
-    },
-    {
         icon: 'PhYoutubeLogo',
         info: 'For junior designs & devs looking to level up, checkout my youtube channel.',
-        link: 'https://youtube.com',
+        link: 'https://www.youtube.com/channel/UCek6wmpHI-IitDIvVM929Hg',
     },
 ]
 
 const socials = [
-    'https://github.com/firstname-design/',
-    'https://dribbble.com/firstname-design',
-    'https://twitter.com/firstname-design',
-    'https://www.instagram.com/firstname.design/',
-    'https://facebook.com/lastname.firstname',
-    'https://www.youtube.com/channel/your-channel',
-    'https://medium.com/@firstname-design',
+    'https://github.com/dubem-design',
+    'https://dribbble.com/dubem-design',
+    'https://twitter.com/dubem_design',
+    'https://www.instagram.com/dubem.design/',
+    'https://www.youtube.com/channel/UCek6wmpHI-IitDIvVM929Hg',
+    'https://medium.com/@dubem-design',
+    'https://www.linkedin.com/in/dubem-design/',
 ]
 
 export default {

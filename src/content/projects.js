@@ -8,9 +8,9 @@ const menu = {
 }
 const content = [
     {
-        name: 'Spotify',
+        name: 'Modula',
         logo: 'https://logo.clearbit.com/spotify.com',
-        fromAndTo: '2019 - 2020',
+        fromAndTo: '2021',
         status: 'Live', // deployed, in-use, closed
         projectRole: 'Designer',
         about: 'I like to think I designed the user interface for the spotify app. Just pretent I did. Thank you.',
@@ -18,9 +18,9 @@ const content = [
         industry: 'not-open-source', // voluntaring, business, community
     },
     {
-        name: 'Youtube',
+        name: 'Gradicons',
         logo: 'https://logo.clearbit.com/youtube.com',
-        fromAndTo: '2019 - 2020',
+        fromAndTo: '2021',
         status: 'Live', // deployed, in-use, closed
         projectRole: 'Illustrator',
         about: 'If Youtbe had plenty illustrations, I would design them. Hence this project lives in my dreams.',

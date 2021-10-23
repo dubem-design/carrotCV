@@ -1,7 +1,7 @@
 // First edit the general layout settings of the template
 export default {
     primary: 'red',
-    accent: 'yellow',
+    accent: 'red',
     bordered: true,
     scrollFaders: true,
     useLogo: false,

@@ -6,16 +6,28 @@ const menu = {
     hash: '#skills',
     icon: 'PhBarbell',
     snippets:
-        'I noticed email template UIs where scarce on Figma, so I created mine and shared to the commmunity.',
+        'Anything and everything is learnable once you direct your interest to it, it must be mastered. - Dubem 2021',
 }
 const content = [
     {
-        categoryName: 'Cloud',
-        skills: ['HTML', 'Javascript', 'AWS Elastic Beans'], // color coded
+        categoryName: 'Frontend',
+        skills: ['Vuejs', 'React', 'Pug', 'Tailwind', 'Bootstrap'], // color coded
     },
     {
         categoryName: 'Design',
-        skills: ['Figma', 'Adobe XD', 'Invision'], // color coded
+        skills: ['Figma', 'Blender', 'Inkscape', 'Vectornator', 'Procreate'], // color coded
+    },
+    {
+        categoryName: 'Product',
+        skills: ['Notion Pro', 'Slack', 'Zapier', 'Google Sheets'], // color coded
+    },
+    {
+        categoryName: 'Cloud',
+        skills: ['GCP', 'Little AWS'], // color coded
+    },
+    {
+        categoryName: 'Motion',
+        skills: ['Blender', 'Lottie'], // color coded
     },
 ]
 

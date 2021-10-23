@@ -1,9 +1,9 @@
 export default {
-    firstname: 'firstname',
-    middlename: '',
-    lastname: 'lastname',
+    firstname: 'Dubem',
+    middlename: 'Kizito',
+    lastname: 'Izuorah',
     logoLightUrl: '',
     logoDarkUrl: '',
-    tagline: 'Building great product experiences', // e.g Building Product Experiences
-    photo1: 'https://images.pexels.com/photos/7907687/pexels-photo-7907687.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260',
+    tagline: 'Building great product experiences', 
+    photo1: 'https://s3.eu-west-3.amazonaws.com/dubem.design/dubem-design.jpg',
 }
