@@ -1,5 +1,5 @@
 <template lang="pug">
-div(class="text-center lg:text-left")
+div(class="text-center lg:text-left pt-8 md:pt-0")
   h1.text-4xl.font-bold.text-gray-800 {{bio.firstname}} 
   h1.text-4xl.font-bold.text-gray-800 {{bio.middlename}}
   h1.text-4xl.font-bold.text-gray-800 {{bio.lastname}}
