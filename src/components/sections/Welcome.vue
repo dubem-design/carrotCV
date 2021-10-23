@@ -8,8 +8,8 @@
       h3.font-semibold.text-gray-500.text-lg(style="letter-spacing: .4em;") {{content.greeting}}
       h1.font-bold.break-words.text-black(class="text-3xl lg:text-6xl") {{content.whatYouDo}}
       .cta-buttons.pt-6
-        CButton.mr-3(:href="content.ctaButtonLink") Send DM
-        CButton(colorType="accent" :href="content.auxButtonLink") Learn on youtube
+        CButton.mr-3(:href="content.ctaButtonLink") {{content.ctaButtonText}}
+        CButton(colorType="accent" :href="content.auxButtonLink") {{content.auxButtonText}}
       //- pre {{$content}}
   div.story.border-t.pt-12
     h3.section-title.text-black {{content.title}}

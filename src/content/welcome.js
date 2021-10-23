@@ -11,6 +11,8 @@ const content = {
     greeting: 'Hello there',
     whatYouDo:
         'I help startups build great product experiences & junior creatives level up',
+    ctaButtonText: 'Message me',
+    auxButtonText: 'Check this out',
     ctaButtonLink: 'https://google.com',
     auxButtonLink: 'https://youtube.com',
     title: 'Once upon a time...',
