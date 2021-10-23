@@ -19,21 +19,47 @@ const content = [
             'Working with an awesome team of frontend engineers to build interfaces that deliver the strength the Atlan ecosystem to data teams.',
         website: 'https://atlan.com',
         thumbnail:
-            'https://images.pexels.com/photos/218717/pexels-photo-218717.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+            'https://s3.eu-west-3.amazonaws.com/dubem.design/atlan-website.jpg',
         companySector: 'Data catalogue & more', //e.g Fintech, education, goverment,
     },
     {
         company: 'Jetseed (ex-pettysave)',
         companyLogo:
             'https://s3.eu-west-3.amazonaws.com/dubem.design/jetseed.png',
-        fromAndTo: 'Jan 2017 - Nov 2018',
+        fromAndTo: 'Oct 2018 - Aug 2021 (3 years)',
         jobTitle: 'Head of Product & Frontend Developer',
         yourWorkThere:
-            'I started my creative journey doodling all over the wall in my house, then I moved next to dismantling our electronics just to see how they work.',
-        website: 'https://facebook.com',
+            'Employee number one, built the frontend platform as the only frontend developer for 2 years and lead the transition to Jetseed as Head of product',
+        website: 'https://jetseed.com',
         thumbnail:
-            'https://images.pexels.com/photos/6162932/pexels-photo-6162932.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+            'https://s3.eu-west-3.amazonaws.com/dubem.design/jetseed-website.jpg',
         companySector: 'Fintech', //e.g Fintech, education, goverment,
+    },
+    {
+        company: 'Realvest',
+        companyLogo:
+            'https://s3.eu-west-3.amazonaws.com/dubem.design/realvest-logo.jpg',
+        fromAndTo: 'Feb 2020 - March 2021',
+        jobTitle: 'Frontend Developer',
+        yourWorkThere:
+            'It was exciting to build the first version of a platform that helped people buy their home over 7years',
+        website: 'https://realvest.ng',
+        thumbnail:
+            'https://s3.eu-west-3.amazonaws.com/dubem.design/realvest-website.jpg',
+        companySector: 'Prop Tech', //e.g Fintech, education, goverment,
+    },
+    {
+        company: 'Pertinence properties',
+        companyLogo:
+            'https://s3.eu-west-3.amazonaws.com/dubem.design/pertinence-logo.jpg',
+        fromAndTo: 'Jan 2017 - Nov 2018',
+        jobTitle: 'Creative designer',
+        yourWorkThere:
+            'Created designs that powered real estate campaigns accross social media and traditional print media',
+        website: 'http://pertinenceproperties.com/',
+        thumbnail:
+            'https://s3.eu-west-3.amazonaws.com/dubem.design/jetseed-website.jpg',
+        companySector: 'Real Estate', //e.g Fintech, education, goverment,
     },
 ]
 

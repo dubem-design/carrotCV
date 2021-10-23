@@ -11,7 +11,7 @@ const menu = {
 const content = [
     {
         categoryName: 'Frontend',
-        skills: ['Vuejs', 'React', 'Pug', 'Tailwind', 'Bootstrap'], // color coded
+        skills: ['Vuejs', 'React', 'Pug', 'Tailwind', 'Bootstrap', 'WordPress'], // color coded
     },
     {
         categoryName: 'Design',

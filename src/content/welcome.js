@@ -11,10 +11,10 @@ const content = {
     greeting: 'WELCOME',
     whatYouDo:
         'I help startups build great product experiences & junior creatives level up',
-    ctaButtonText: 'Message me',
-    auxButtonText: 'Check this out',
-    ctaButtonLink: 'https://google.com',
-    auxButtonLink: 'https://youtube.com',
+    ctaButtonText: 'My Youtube',
+    auxButtonText: 'Get this template',
+    ctaButtonLink: 'https://www.youtube.com/channel/UCek6wmpHI-IitDIvVM929Hg',
+    auxButtonLink: 'https://github.com/dubem-design/carrotCV',
     title: 'Once upon a time...',
     bodyHTML: `I started my creative journey doodling all over the wall in my house, then I moved next to dismantling our electronics just to see how they work. I decided I would study comupter science in school so I would know how to command machines. 
 
