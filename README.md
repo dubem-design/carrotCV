@@ -7,7 +7,7 @@ CarrotCV was designed for designers, developers, programmers, coders, freelancer
 - HTML only [coming soon]
 - React [coming soon]
 
-### Built with
+### Builat with
 - Vuejs 3
 - TailwindCSS
 ## Features
