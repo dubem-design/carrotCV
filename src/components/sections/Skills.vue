@@ -6,7 +6,7 @@ div#skills.pt-12.section
     div.flex(class="w-full lg:w-3/12")
       h3.text-2xl.text-black {{item.categoryName}}
     div(class="w-full lg:w-9/12")
-      div.text-gray-800.rounded.inline-block.py-2.px-3.bg-gray-100.mr-3.text-sm(v-for="skill in item.skills" :key="item.id") {{skill}}
+      div.text-gray-800.rounded.inline-block.py-2.px-3.bg-gray-100.mr-3.text-sm.mb-3(v-for="skill in item.skills" :key="item.id") {{skill}}
 </template>
 
 <script setup>

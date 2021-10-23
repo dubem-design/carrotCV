@@ -20,14 +20,15 @@ CarrotCV was designed for designers, developers, programmers, coders, freelancer
 - Mobile responsive
 
 ## How to use
-### 1. Setting up and editing content
+### 1. You can fork the project, edit just the content, live updates only go in main branch
+### 2. Setting up and editing content
 - Download project into desired folder
 - Download and install [nodejs](https://nodejs.org/en/download/)
 - Open terminal or command line in the project folder and run "npm install" command
 - Upnext run "npm run dev" & open "http://localhost:3000/" in your browser
 - Head over to file named "STARTHERE.js" and follow the instructions there
 - Watch your the template preview update as you change the content of the config files.
-### 2. Hosting website to Vercel or other hosting services
+### 3. Hosting website to Vercel or other hosting services
 - [Hosting on Vercel for free](https://vercel.com/guides/deploying-vuejs-to-vercel)
 - Guide for more coming soon
 
